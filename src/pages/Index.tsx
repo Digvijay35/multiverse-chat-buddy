@@ -1,11 +1,47 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import StarField from "@/components/StarField";
+import TerminalHeader from "@/components/TerminalHeader";
+import MultiverseScanner from "@/components/MultiverseScanner";
+import CharacterGrid from "@/components/CharacterGrid";
+import MultiverseChat from "@/components/MultiverseChat";
+import { Character } from "@/data/characters";
 
 const Index = () => {
+  const [showChat, setShowChat] = useState(false);
+  const [connectedChar, setConnectedChar] = useState<Character | null>(null);
+  const [scanDone, setScanDone] = useState(false);
+
+  const handleConnect = (char: Character) => {
+    setConnectedChar(char);
+    setShowChat(true);
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen flex items-center justify-center p-4 relative">
+      <StarField />
+      <div className="w-full max-w-3xl relative z-10 space-y-6">
+        <div className="terminal-panel">
+          <TerminalHeader />
+        </div>
+
+        {/* Scanner */}
+        <MultiverseScanner onScanComplete={() => setScanDone(true)} />
+
+        {/* Character Grid - always visible */}
+        {!showChat && (
+          <CharacterGrid onConnect={handleConnect} />
+        )}
+
+        {/* Chat */}
+        {showChat && connectedChar && (
+          <MultiverseChat
+            character={connectedChar}
+            onBack={() => {
+              setShowChat(false);
+              setConnectedChar(null);
+            }}
+          />
+        )}
       </div>
     </div>
   );

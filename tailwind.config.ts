@@ -47,6 +47,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        glow: "hsl(var(--glow))",
+        cyan: "hsl(var(--cyan))",
+        magenta: "hsl(var(--magenta))",
+        warning: "hsl(var(--warning))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +61,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        mono: ["'Share Tech Mono'", "'Courier New'", "monospace"],
+        display: ["'Orbitron'", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
