@@ -10,6 +10,14 @@ export interface Character {
 export const CHARACTERS: Character[] = [
   { id: "einstein", name: "Albert Einstein", title: "Theoretical Physicist", emoji: "🧠", dimension: "Dimension-E=MC²", status: "available" },
   { id: "hawking", name: "Stephen Hawking", title: "Cosmologist", emoji: "🌌", dimension: "Black Hole Nexus", status: "available" },
+  { 
+    id: "epstein", 
+    name: "Jeffrey Epstein", 
+    title: "Financier", 
+    emoji: "🏝️", 
+    dimension: "Little St. James", 
+    status: "available" 
+  },
   { id: "jadoo", name: "Jadoo", title: "Alien Friend", emoji: "👽", dimension: "Koi Mil Gaya Verse", status: "available" },
   { id: "chotabheem", name: "Chota Bheem", title: "Warrior of Dholakpur", emoji: "💪", dimension: "Dholakpur Prime", status: "available" },
   { id: "thanos", name: "Thanos", title: "The Mad Titan", emoji: "🟣", dimension: "Titan-616", status: "available" },
