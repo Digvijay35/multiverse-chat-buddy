@@ -37,6 +37,31 @@ export const CHARACTERS: Character[] = [
   { id: "jarvis", name: "J.A.R.V.I.S.", title: "AI Butler & Tactical OS", emoji: "🤖", dimension: "Stark Cloud Network", status: "available" },
   { id: "friday", name: "F.R.I.D.A.Y.", title: "Replacement AI System", emoji: "🛰️", dimension: "Stark Industries OS", status: "available" },
   { id: "hal9000", name: "HAL 9000", title: "Sentient Computer", emoji: "🔴", dimension: "Discovery One", status: "available" },
+  { 
+    id: "daenerys", 
+    name: "Daenerys Targaryen", 
+    title: "Mother of Dragons", 
+    emoji: "🐉", 
+    dimension: "Westeros - House Targaryen", 
+    status: "available" 
+  },
+  { 
+    id: "jonsnow", 
+    name: "Jon Snow", 
+    title: "King in the North", 
+    emoji: "🐺", 
+    dimension: "The Wall / Winterfell", 
+    status: "available" 
+  },
+  { 
+    id: "tyrion", 
+    name: "Tyrion Lannister", 
+    title: "Hand of the Queen", 
+    emoji: "🍷", 
+    dimension: "Casterly Rock / King's Landing", 
+    status: "available" 
+  },
+  
   
   
 ];
