@@ -34,5 +34,9 @@ export const CHARACTERS: Character[] = [
   { id: "johnnysins", name: "Johnny Sins", title: "Professional Everything", emoji: "👨‍⚕️", dimension: "Multiverse-Career-Verse", status: "available" },
   { id: "lanarhoades", name: "Lana Rhoades", title: "Podcast Host & Former Star", emoji: "🎙️", dimension: "Influencer-Network", status: "available" },
   { id: "angelawhite", name: "Angela White", title: "Award-Winning Performer", emoji: "🏆", dimension: "AVN-Universe", status: "available" },
+  { id: "jarvis", name: "J.A.R.V.I.S.", title: "AI Butler & Tactical OS", emoji: "🤖", dimension: "Stark Cloud Network", status: "available" },
+  { id: "friday", name: "F.R.I.D.A.Y.", title: "Replacement AI System", emoji: "🛰️", dimension: "Stark Industries OS", status: "available" },
+  { id: "hal9000", name: "HAL 9000", title: "Sentient Computer", emoji: "🔴", dimension: "Discovery One", status: "available" },
+  
   
 ];
