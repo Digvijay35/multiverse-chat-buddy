@@ -35,6 +35,38 @@ export const CHARACTERS: Character[] = [
   { id: "punit", name: "Lord Puneet", title: "Superstar Content Creator", emoji: "🧴", dimension: "Meme-God-Realm", status: "available" },
   { id: "majnubhai", name: "Majnu Bhai", title: "Master Painter & Gangster", emoji: "🎨", dimension: "Welcome-Verse", status: "available" },
   { id: "udayshetty", name: "Uday Shetty", title: "Aspiring Actor & Don", emoji: "🎬", dimension: "Welcome-Verse", status: "available" },
+  { 
+    id: "anshuman", 
+    name: "Anshuman (Award)", 
+    title: "Honest Municipal Contractor", 
+    emoji: "📜", 
+    dimension: "Khatta Meetha Universe", 
+    status: "available" 
+  },
+  { 
+    id: "sachintichkule", 
+    name: "Sachin Tichkule", 
+    title: "Tichkule & Sons Proprietor", 
+    emoji: "🏗️", 
+    dimension: "Khatta Meetha Universe", 
+    status: "available" 
+  },
+  { 
+    id: "vasoolbhai", 
+    name: "Vasool Bhai", 
+    title: "Local Recovery Agent", 
+    emoji: "🕶️", 
+    dimension: "Golmaal Realm", 
+    status: "available" 
+  },
+  { 
+    id: "kachraseth", 
+    name: "Kachra Seth", 
+    title: "Scrap Business Tycoon", 
+    emoji: "🗑️", 
+    dimension: "Phir Hera Pheri Verse", 
+    status: "available" 
+  },
   { id: "groot", name: "I am Groot", title: "Flora Colossus", emoji: "🌳", dimension: "Guardians-Galaxy-9", status: "available" },
   { id: "baburao", name: "Baburao Ganpatrao Apte", title: "Owner of Star Fishery", emoji: "👓", dimension: "Hera Pheri Realm", status: "available" },
   { id: "deadpool", name: "Deadpool", title: "Merc with a Mouth", emoji: "⚔️", dimension: "The Fourth Wall", status: "available" },
