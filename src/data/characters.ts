@@ -20,4 +20,9 @@ export const CHARACTERS: Character[] = [
   { id: "tesla", name: "Nikola Tesla", title: "Electrical Genius", emoji: "⚡", dimension: "AC Current Realm", status: "available" },
   { id: "doraemon", name: "Doraemon", title: "Robot Cat from Future", emoji: "🐱", dimension: "22nd Century Tokyo", status: "available" },
   { id: "ironman", name: "Tony Stark", title: "Iron Man", emoji: "🦾", dimension: "Avengers-199999", status: "available" },
+  { id: "hindustanibhau", name: "Hindustani Bhau", title: "Social Media Warrior", emoji: "📢", dimension: "YouTube-Rant-Verse", status: "available" },
+  { id: "deepakkalal", name: "Deepak Kalal", title: "Travel & Lifestyle Icon", emoji: "🧣", dimension: "Pappi-Zhun-Verse", status: "available" },
+  { id: "miakhalifa", name: "Mia Khalifa", title: "Internet Personality", emoji: "👓", dimension: "Social-Influencer-Sphere", status: "available" },
+  { id: "carryminati", name: "CarryMinati", title: "Roaster Supreme", emoji: "🔥", dimension: "Roast-Arena", status: "available" },
+  { id: "punit", name: "Lord Puneet", title: "Superstar Content Creator", emoji: "🧴", dimension: "Meme-God-Realm", status: "available" },
 ];
