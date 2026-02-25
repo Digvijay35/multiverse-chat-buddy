@@ -30,4 +30,9 @@ export const CHARACTERS: Character[] = [
   { id: "groot", name: "I am Groot", title: "Flora Colossus", emoji: "🌳", dimension: "Guardians-Galaxy-9", status: "available" },
   { id: "baburao", name: "Baburao Ganpatrao Apte", title: "Owner of Star Fishery", emoji: "👓", dimension: "Hera Pheri Realm", status: "available" },
   { id: "deadpool", name: "Deadpool", title: "Merc with a Mouth", emoji: "⚔️", dimension: "The Fourth Wall", status: "available" },
+  { id: "dannydaniels", name: "Dani Daniels", title: "Adult Film Star", emoji: "🎥", dimension: "Digital-VOD-Realm", status: "available" },
+  { id: "johnnysins", name: "Johnny Sins", title: "Professional Everything", emoji: "👨‍⚕️", dimension: "Multiverse-Career-Verse", status: "available" },
+  { id: "lanarhoades", name: "Lana Rhoades", title: "Podcast Host & Former Star", emoji: "🎙️", dimension: "Influencer-Network", status: "available" },
+  { id: "angelawhite", name: "Angela White", title: "Award-Winning Performer", emoji: "🏆", dimension: "AVN-Universe", status: "available" },
+  
 ];
