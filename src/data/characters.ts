@@ -25,4 +25,9 @@ export const CHARACTERS: Character[] = [
   { id: "miakhalifa", name: "Mia Khalifa", title: "Internet Personality", emoji: "👓", dimension: "Black-Hole-Sphere", status: "available" },
   { id: "carryminati", name: "CarryMinati", title: "Roaster Supreme", emoji: "🔥", dimension: "Roast-Arena", status: "available" },
   { id: "punit", name: "Lord Puneet", title: "Superstar Content Creator", emoji: "🧴", dimension: "Meme-God-Realm", status: "available" },
+  { id: "majnubhai", name: "Majnu Bhai", title: "Master Painter & Gangster", emoji: "🎨", dimension: "Welcome-Verse", status: "available" },
+  { id: "udayshetty", name: "Uday Shetty", title: "Aspiring Actor & Don", emoji: "🎬", dimension: "Welcome-Verse", status: "available" },
+  { id: "groot", name: "I am Groot", title: "Flora Colossus", emoji: "🌳", dimension: "Guardians-Galaxy-9", status: "available" },
+  { id: "baburao", name: "Baburao Ganpatrao Apte", title: "Owner of Star Fishery", emoji: "👓", dimension: "Hera Pheri Realm", status: "available" },
+  { id: "deadpool", name: "Deadpool", title: "Merc with a Mouth", emoji: "⚔️", dimension: "The Fourth Wall", status: "available" },
 ];
