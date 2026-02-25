@@ -69,6 +69,31 @@ export const CHARACTERS: Character[] = [
     dimension: "Casterly Rock / King's Landing", 
     status: "available" 
   },
+
+  { 
+    id: "shinchan", 
+    name: "Shin-chan", 
+    title: "Chaos Specialist (5-Year-Old)", 
+    emoji: "🍑", 
+    dimension: "Kasukabe City", 
+    status: "available" 
+  },
+  { 
+    id: "himawari", 
+    name: "Himawari Nohara", 
+    title: "Shiny Object Enthusiast", 
+    emoji: "👶", 
+    dimension: "Kasukabe City", 
+    status: "available" 
+  },
+  { 
+    id: "shiro", 
+    name: "Shiro", 
+    title: "The Smartest Family Member", 
+    emoji: "🐶", 
+    dimension: "Nohara Backyard", 
+    status: "available" 
+  },
   
   
   
